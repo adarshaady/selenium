@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="TestFour(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="openApplication"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+      <class name="testcases.FourTest">
+        <methods>
+          <include name="closure"/>
+          <include name="fourTest"/>
+        </methods>
+      </class> <!-- testcases.FourTest -->
+    </classes>
+  </test> <!-- TestFour(failed) -->
+</suite> <!-- Failed suite [Suite] -->

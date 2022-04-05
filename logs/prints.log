@@ -1,0 +1,10 @@
+19:18:23.885 [TestNG] DEBUG testcases.LoginTest - Browser got launched
+19:18:29.698 [TestNG] DEBUG testcases.LoginTest - Navigated to application URL
+19:18:30.189 [TestNG] DEBUG testcases.LoginTest - Clicked on My Account dropdown
+19:18:30.524 [TestNG] DEBUG testcases.LoginTest - Clicked on login option
+19:18:33.669 [TestNG] DEBUG testcases.LoginTest - Email addressed got entered
+19:18:33.775 [TestNG] DEBUG testcases.LoginTest - Password got entered
+19:18:34.388 [TestNG] DEBUG testcases.LoginTest - Clicked on Login Button
+19:18:34.429 [TestNG] DEBUG testcases.LoginTest - User got logged in
+19:18:34.429 [TestNG] INFO  testcases.LoginTest - Login Test got passed
+19:18:35.459 [TestNG] DEBUG testcases.LoginTest - Browser got closed
